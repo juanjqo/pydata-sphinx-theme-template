@@ -88,7 +88,7 @@ html_theme_options = {
     # "twitter_url": "https://twitter.com/PyData",
     "logo": {
         "text": "Home",
-        "image_dark": "/docs/build/html/_static/logo.svg",
+        "image_dark": "/docs/build/html/_images/logo.svg",
         "alt_text": "MyProject",
     },
     "use_edit_page_button": False,
