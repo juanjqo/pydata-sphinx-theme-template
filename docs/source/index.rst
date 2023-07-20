@@ -3,7 +3,7 @@ My project
 ==========
 
 
-.. |logo| image:: ../images/mylogo.svg
+.. |logo| image:: ../images/logo.svg
 
 
 .. image:: ../images/cover.svg

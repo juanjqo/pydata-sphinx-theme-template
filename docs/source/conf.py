@@ -41,9 +41,8 @@ templates_path = ['_templates']
 #html_theme = 'sphinx_rtd_theme'
 html_theme = "pydata_sphinx_theme"
 
-html_logo = path_str + "/build/html/_images/mylogo.svg"
-html_favicon = path_str + "/build/html/_images/mylogo.svg"
-print(path_str + "/build/html/_images/mylogo.svg")
+html_logo = path_str + "/build/html/_images/logo.svg"
+html_favicon = path_str + "/build/html/_images/logo.svg"
 
 
 
@@ -79,7 +78,7 @@ html_theme_options = {
         {
             "name": "MyLogo",
             "url": "https://github.com/juanjqo/pydata-sphinx-theme-template",
-            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/images/mylogo.svg",
+            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/images/logo.svg",
             "type": "local",
             "attributes": {"target": "_blank"},
         },
@@ -89,7 +88,7 @@ html_theme_options = {
     # "twitter_url": "https://twitter.com/PyData",
     "logo": {
         "text": "Home",
-        "image_dark": "/docs/build/html/_static/mylogo.svg",
+        "image_dark": "/docs/build/html/_static/logo.svg",
         "alt_text": "MyProject",
     },
     "use_edit_page_button": False,
