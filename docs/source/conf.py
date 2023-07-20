@@ -5,8 +5,6 @@ import sys
 from pathlib import Path
 import datetime
 
-today = datetime.date.today()
-year = today.year
 
 sys.path.append(str(Path(".").resolve()))
 path_str = str(Path(__file__).parent.parent)
@@ -14,7 +12,7 @@ path_str = str(Path(__file__).parent.parent)
 # -- Project information
 
 project = 'MyProject'
-copyright = str(year)+'Gabriel Garcia Marques'
+copyright = str(datetime.date.today().year)+' Gabriel Garcia Marques'
 author = 'Gabriel Garcia Marques'
 
 release = '0.1'
@@ -70,14 +68,14 @@ html_theme_options = {
 
         {
             "name": "GitHub",
-            "url": "https://dqrobotics.github.io/",
+            "url": "https://github.com/juanjqo/pydata-sphinx-theme-template",
             "icon": "fa-brands fa-github",
         },
 
         {
             "name": "MyLogo",
-            "url": "https://dqrobotics.github.io/",
-            "icon": "https://raw.githubusercontent.com/juanjqo/test_pydata_theme/main/docs/images/dqrobotics_logo_infinity2.svg",
+            "url": "https://github.com/juanjqo/pydata-sphinx-theme-template",
+            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/_static/mylogo.svg",
             "type": "local",
             "attributes": {"target": "_blank"},
         },
@@ -87,8 +85,8 @@ html_theme_options = {
     # "twitter_url": "https://twitter.com/PyData",
     "logo": {
         "text": "Home",
-        "image_dark": "/docs/build/html/_images/logo.svg",
-        "alt_text": "Tutorial: DQ Robotics with CoppeliaSim",
+        "image_dark": "/docs/build/html/_static/mylogo.svg",
+        "alt_text": "MyProject",
     },
     "use_edit_page_button": False,
     "show_toc_level": 1,

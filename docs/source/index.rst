@@ -4,10 +4,9 @@ My project
 
 
 .. |logo| image:: ../_static/mylogo.svg
-.. |logopng| image:: ../images/mylogo.png
 
 
-.. image:: ../images/cover.svg
+.. image:: ../_static/cover.svg
    :align: center
 
 .. note::
