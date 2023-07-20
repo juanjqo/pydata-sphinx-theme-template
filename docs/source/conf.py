@@ -41,8 +41,13 @@ templates_path = ['_templates']
 #html_theme = 'sphinx_rtd_theme'
 html_theme = "pydata_sphinx_theme"
 
-html_logo = path_str + "/build/html/_images/mylogo.svg"
-html_favicon = path_str + "/build/html/_images/mylogo.svg"
+#html_logo = path_str + "/build/html/_images/mylogo.svg"
+#html_favicon = path_str + "/build/html/_images/mylogo.svg"
+
+html_logo = "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/_static/mylogo.svg"
+html_favicon = "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/_static/mylogo.svg"
+
+
 
 language = "en"
 html_sourcelink_suffix = ""
