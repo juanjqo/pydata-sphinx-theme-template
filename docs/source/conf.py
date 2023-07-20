@@ -79,7 +79,7 @@ html_theme_options = {
         {
             "name": "MyLogo",
             "url": "https://github.com/juanjqo/pydata-sphinx-theme-template",
-            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/_static/mylogo.svg",
+            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/images/mylogo.svg",
             "type": "local",
             "attributes": {"target": "_blank"},
         },
