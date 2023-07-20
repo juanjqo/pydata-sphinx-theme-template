@@ -4,7 +4,7 @@ My project
 
 
 .. |logo| image:: ../images/logo.svg
-
+.. |logopng| image:: ../images/logo.png
 
 .. image:: ../images/cover.svg
    :align: center
