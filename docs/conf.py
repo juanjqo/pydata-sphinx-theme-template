@@ -84,7 +84,7 @@ html_theme_options = {
         {
             "name": "MyLogo",
             "url": "https://github.com/juanjqo/pydata-sphinx-theme-template",
-            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/images/logo.svg",
+            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/_static/logo.svg",
             "type": "local",
             "attributes": {"target": "_blank"},
         },
@@ -94,7 +94,7 @@ html_theme_options = {
     # "twitter_url": "https://twitter.com/PyData",
     "logo": {
         "text": "Home",
-        "image_dark": "/docs/build/html/_images/logo.svg",
+        "image_dark": "./_static/logodark.svg",
         "alt_text": "MyProject",
     },
     "use_edit_page_button": False,
