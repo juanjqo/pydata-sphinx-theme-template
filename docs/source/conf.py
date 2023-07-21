@@ -7,6 +7,8 @@ import datetime
 
 
 sys.path.append(str(Path(".").resolve()))
+
+sys.path.insert(0, os.path.abspath("."))
 path_str = str(Path(__file__).parent.parent)
 
 # -- Project information
@@ -41,8 +43,8 @@ templates_path = ['_templates']
 #html_theme = 'sphinx_rtd_theme'
 html_theme = "pydata_sphinx_theme"
 
-html_logo = path_str + "/build/html/_images/logo.png"
-html_favicon = path_str + "/build/html/_images/logo.png"
+html_logo = "./images/logo.png"
+html_favicon = "./images/logo.png"
 
 
 

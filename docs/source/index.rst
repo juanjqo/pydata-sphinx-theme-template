@@ -3,10 +3,10 @@ My project
 ==========
 
 
-.. |logo| image:: ../images/logo.svg
-.. |logopng| image:: ../images/logo.png
+.. |logo| image:: ../source/images/logo.svg
+.. |logopng| image:: ../source/images/logo.png
 
-.. image:: ../images/cover.svg
+.. image:: ../source/images/cover.svg
    :align: center
 
 .. note::
