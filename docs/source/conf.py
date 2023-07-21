@@ -41,9 +41,8 @@ templates_path = ['_templates']
 #html_theme = 'sphinx_rtd_theme'
 html_theme = "pydata_sphinx_theme"
 
-html_logo = path_str + "/build/html/_images/logo.svg"
-html_favicon = path_str + "/build/html/_images/logo.svg"
-
+html_logo = path_str + "/build/html/_images/logo.png"
+html_favicon = path_str + "/build/html/_images/logo.png"
 
 
 
