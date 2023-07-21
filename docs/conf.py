@@ -1,4 +1,5 @@
-# Configuration file for the Sphinx documentation builder.
+
+
 
 import os
 import sys
@@ -20,8 +21,6 @@ author = 'Gabriel Garcia Marques'
 release = '0.1'
 version = '0.1.0'
 
-# -- General configuration
-
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -37,15 +36,21 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-# -- Options for HTML output
+
+
+# -- Options for HTML output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 #html_theme = 'sphinx_rtd_theme'
 html_theme = "pydata_sphinx_theme"
 
-html_logo = "./images/logo.png"
-html_favicon = "./images/logo.png"
+html_static_path = ['_static']
 
+
+html_logo = "./_static/logo.png"
+html_favicon = "./_static/logo.png"
 
 
 language = "en"
