@@ -19,11 +19,18 @@ My project
 
    Test
 
+.. warning::
+
+   Warning
 
 .. admonition:: Example
    :class: admonition-example
 
    Example
+
+.. note::
+
+   Note
 
 .. admonition:: Disclaimer
    :class: admonition-disclaimer
