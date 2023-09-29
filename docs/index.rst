@@ -15,9 +15,28 @@ My project
 
 
 .. admonition:: Git
-   :class: adminition-git
+   :class: admonition-git
 
    Test
+
+
+.. admonition:: Example
+   :class: admonition-example
+
+   Example
+
+.. admonition:: Disclaimer
+   :class: admonition-disclaimer
+
+   Disclaimer
+
+
+.. raw:: html
+
+    <video width="100%" height="auto" autoplay muted loop playsInline> <source
+     src="../../_static/videos/website1.mp4"
+     type="video/mp4" style="margin-left: -220px; margin-right: -10.5%">
+     Your browser does not support the video tag.  </video>
 
 
 
