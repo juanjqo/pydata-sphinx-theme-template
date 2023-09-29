@@ -14,6 +14,12 @@ My project
    This project is under active development.
 
 
+.. admonition:: Git
+   :class: adminition-git
+
+   Test
+
+
 
 
 

@@ -15,11 +15,11 @@ path_str = str(Path(__file__).parent.parent)
 # -- Project information
 
 project = 'MyProject'
-copyright = str(datetime.date.today().year)+' Gabriel Garcia Marques'
-author = 'Gabriel Garcia Marques'
+copyright = str(datetime.date.today().year)+' Juan Jose Quiroz Omana'
+author = 'Juan Jose Quiroz Omana'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = 'a'
 
 extensions = [
     'sphinx.ext.duration',
@@ -27,6 +27,13 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'hoverxref.extension',
+    'sphinx_design',
+    'sphinx.ext.todo',
+    'sphinx_togglebutton',
+    'sphinxcontrib.youtube',
+    'sphinx_copybutton',
+    # 'sphinx_github_style',
 ]
 
 intersphinx_mapping = {
@@ -47,7 +54,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "pydata_sphinx_theme"
 
 html_static_path = ['_static']
-
+html_css_files = ["custom.css"]
 
 html_logo = "./_static/logo.png"
 html_favicon = "./_static/logo.png"
